@@ -12,8 +12,7 @@ class Program
             Exit("Invalid input.");
             return;
         }
-
-
+        
         Calculator? calculator = GetCalcualtor();
         
         if (calculator == null)
